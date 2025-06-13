@@ -14,7 +14,7 @@ export class PortfolioInfrastructureStack extends cdk.Stack {
       // Connect to my github repo
       sourceCodeProvider: new amplify.GitHubSourceCodeProvider({
         owner: 'ericthebuilder',
-        repository: 'portfolio',
+        repository: 'portfolio-project',
         oauthToken: cdk.SecretValue.secretsManager('github-token')
       }),
       // Build Specification
@@ -25,7 +25,6 @@ export class PortfolioInfrastructureStack extends cdk.Stack {
             preBuild: {
               commands: [
                 'echo "Starting this build"',
-                'cd ..',
                 'npm install'
               ],
             },
