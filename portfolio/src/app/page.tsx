@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ExternalLink, Github, Mail, Linkedin } from "lucide-react"
+import {Github, Mail, Linkedin } from "lucide-react"
 import {FaMedium} from "react-icons/fa"
 const projects = [
   {
@@ -47,7 +47,7 @@ export default function Portfolio() {
               height={200}
               className="w-[200px] h-[200px] rounded-full mx-auto mb-6 border-4 border-gray-200 object-cover object-[center_10%]"
             />
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-900">Hello, I'm Eric</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-900">Hello, I&apos;m Eric</h1>
             <p className="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
               Orchestrating cloud infrastructure with precision and purpose; weaving Infrastructure as Code into seamless, secure, and scalable systems.
             </p>
