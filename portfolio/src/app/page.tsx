@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Reaching Toward the Heavens",
     description:
-      "Blog post documenting my transition into Cloud. It overviews several foundational aspects of cloud computing like XaaS, networking, and virtualization.",
+      "Blog post documenting my transition into Cloud. It covers several foundational aspects of cloud computing like XaaS, networking, and virtualization.",
     technologies: ["Medium", "Linux"],
     mediumUrl: "https://medium.com/@heyericalvarez/reaching-toward-the-heavens-module-1-cloud-fundamentals-bc8afca6425f",
   },
