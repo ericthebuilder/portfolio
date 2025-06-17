@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import {Github, Mail, Linkedin } from "lucide-react"
 import {FaMedium} from "react-icons/fa"
@@ -40,8 +39,8 @@ export default function Portfolio() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="mb-8">
-            <Image
-              src="/profilepic.png"
+            <img
+              src="/profilepic.jpg"
               alt="Profile picture"
               width={200}
               height={200}
