@@ -39,15 +39,15 @@ export default function Portfolio() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="mb-8">
+            <div className="w-[200px] h-[200px] rounded-full overflow-hidden mx-auto mb-6 border-4 border-gray-200">
             <img
-              src="/profilepic-resized.jpg"
+              src="/pic-resized.jpg"
               alt="Profile picture"
-              width={200}
-              height={200}
+              className="w-full h-full object-cover"
               loading="lazy"
               decoding="async"
-              className="w-[200px] h-[200px] rounded-full mx-auto mb-6 border-4 border-gray-200 object-cover object-[center_10%]"
             />
+            </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-900">Hello, I&apos;m Eric</h1>
             <p className="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
               Orchestrating cloud infrastructure with precision and purpose; weaving Infrastructure as Code into seamless, secure, and scalable systems.
