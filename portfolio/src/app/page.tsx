@@ -7,7 +7,7 @@ const projects = [
     description:
       "Migrated infrastructure originally created in the AWS console to Infrastructure as Code using AWS CDK TypeScript.  Enabled a fully automated, repeatable, and version-controlled infrastructure to support better governance, scalability, and long-term maintainability.",
     technologies: ["AWS", "CDK", "TypeScript", "CloudFormation", "VPC"],
-    githubUrl: "https://github.com/ericthebuilder/techhealth-migration",
+    githubUrl: "https://github.com/ericthebuilder/techhealth-migration/blob/main/TechHealthMigrationReport.pdf",
   },
   {
     title: "Automated CI/CD Pipeline with CloudFormation and Github Actions",
